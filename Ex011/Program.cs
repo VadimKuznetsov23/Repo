@@ -9,7 +9,6 @@
     }
 }
 
-
 void PrintArray(int[] col)
 {
     int count = col.Length;
