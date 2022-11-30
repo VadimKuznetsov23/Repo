@@ -6,8 +6,9 @@
     return result;
 }
 int[] array = {11,21,31,43,52,16,27,83,19};
-// array[0] = 12;
 
-// Console.Write(array[4]);
+// array[0] = 12; - присвоение значения индексу
+// Console.Write(array[4]); - вывод значения индекса
+
 int max = Max(Max(array[0], array[1], array[2]), Max(array[3], array[4], array[5]), Max(array[6], array[7], array[8]));
 Console.WriteLine(max);
